@@ -1,0 +1,27 @@
+curl -X POST -H 'Content-Type: application/json' 'http://localhost:8983/solr/itemCore/update' --data-binary '
+{
+  "add":{
+    "doc":{
+      "name":"airpods",
+      "price":5000,
+      "id":"0"
+    }
+  },
+  "add":{
+    "doc":{
+      "name":"airpods",
+      "price":4000,
+      "id":"1"
+    }
+  },
+  "add":{
+    "doc":{
+      "name":"playstation 4",
+      "price":10000,
+      "id":"2"
+    }
+  },
+  "commit":{
+  }
+}'
+

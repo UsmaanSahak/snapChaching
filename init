@@ -1,0 +1,54 @@
+solr-8.0.0/bin/solr delete -c itemCore
+solr-8.0.0/bin/solr create -c itemCore
+
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+	"add-field-type":{
+		"name":"searchable",
+		"class":"solr.TextField",
+		"analyzer":{
+			"tokenizer":{
+				"class":"solr.LowerCaseTokenizerFactory",
+			},
+			"filters":[{
+				"class":"solr.NGramFilterFactory",
+        "minGramSize":"2",
+        "maxGramSize":"4"
+			}],
+		}
+	}
+}' http://localhost:8983/solr/itemCore/schema
+
+
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+	"add-field":{
+		"name":"name",
+		"type":"searchable",
+		"stored": true
+	}
+}' http://localhost:8983/solr/itemCore/schema
+
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+	"add-field":{
+		"name":"price",
+		"type":"pint",
+		"stored": true 
+	}
+}' http://localhost:8983/solr/itemCore/schema
+
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+	"add-field":{
+		"name":"id",
+		"type":"string",
+		"stored": true
+	}
+}' http://localhost:8983/solr/itemCore/schema
+
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+	"add-field":{
+		"name":"profileID",
+		"type":"string",
+		"stored": true
+	}
+}' http://localhost:8983/solr/itemCore/schema
+
+

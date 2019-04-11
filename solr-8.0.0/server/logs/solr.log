@@ -1,0 +1,54 @@
+2019-04-11 22:50:46.743 INFO  (main) [   ] o.e.j.u.log Logging initialized @628ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-04-11 22:50:46.831 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-04-11 22:50:46.836 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+2019-04-11 22:50:46.848 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/uas/Desktop/snapChaching/solr-8.0.0/server/contexts/] at interval 0
+2019-04-11 22:50:46.975 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-04-11 22:50:46.980 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-04-11 22:50:46.981 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-04-11 22:50:46.982 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-04-11 22:50:47.004 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-04-11 22:50:47.021 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-04-11 22:50:47.024 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.0.0
+2019-04-11 22:50:47.024 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-04-11 22:50:47.024 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/uas/Desktop/snapChaching/solr-8.0.0
+2019-04-11 22:50:47.024 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-04-11T22:50:47.024700Z
+2019-04-11 22:50:47.067 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/uas/Desktop/snapChaching/solr-8.0.0/server/solr
+2019-04-11 22:50:47.072 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/uas/Desktop/snapChaching/solr-8.0.0/server/solr/solr.xml
+2019-04-11 22:50:47.106 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@7354b8c5, but no JMX reporters were configured - adding default JMX reporter.
+2019-04-11 22:50:47.273 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-04-11 22:50:47.387 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@e344ad3[provider=null,keyStore=null,trustStore=null]
+2019-04-11 22:50:47.447 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@280d9edc[provider=null,keyStore=null,trustStore=null]
+2019-04-11 22:50:47.529 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-04-11 22:50:47.530 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-04-11 22:50:47.575 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7354b8c5
+2019-04-11 22:50:47.576 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7354b8c5
+2019-04-11 22:50:47.580 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7354b8c5
+2019-04-11 22:50:47.598 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/uas/Desktop/snapChaching/solr-8.0.0/server/solr
+2019-04-11 22:50:47.598 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [itemCore]
+2019-04-11 22:50:47.631 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@2cf23c81{/solr,file:///home/uas/Desktop/snapChaching/solr-8.0.0/server/solr-webapp/webapp/,AVAILABLE}{/home/uas/Desktop/snapChaching/solr-8.0.0/server/solr-webapp/webapp}
+2019-04-11 22:50:47.634 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.c.SolrResourceLoader [itemCore] Added 59 libs to classloader, from paths: [/home/uas/Desktop/snapChaching/solr-8.0.0/contrib/clustering/lib, /home/uas/Desktop/snapChaching/solr-8.0.0/contrib/extraction/lib, /home/uas/Desktop/snapChaching/solr-8.0.0/contrib/langid/lib, /home/uas/Desktop/snapChaching/solr-8.0.0/contrib/velocity/lib, /home/uas/Desktop/snapChaching/solr-8.0.0/dist]
+2019-04-11 22:50:47.638 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@62dbe64e{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-04-11 22:50:47.639 INFO  (main) [   ] o.e.j.s.Server Started @1526ms
+2019-04-11 22:50:47.733 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.0.0
+2019-04-11 22:50:47.814 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.s.IndexSchema [itemCore] Schema name=default-config
+2019-04-11 22:50:47.903 WARN  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LowerCaseTokenizerFactory]. Please consult documentation how to replace it accordingly.
+2019-04-11 22:50:48.078 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-11 22:50:48.096 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.c.CoreContainer Creating SolrCore 'itemCore' using configuration from instancedir /home/uas/Desktop/snapChaching/solr-8.0.0/server/solr/itemCore, trusted=true
+2019-04-11 22:50:48.111 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.itemCore' (registry 'solr.core.itemCore') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7354b8c5
+2019-04-11 22:50:48.120 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.c.SolrCore [[itemCore] ] Opening new SolrCore at [/home/uas/Desktop/snapChaching/solr-8.0.0/server/solr/itemCore], dataDir=[/home/uas/Desktop/snapChaching/solr-8.0.0/server/solr/itemCore/data/]
+2019-04-11 22:50:48.158 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-11 22:50:48.407 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-11 22:50:48.408 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-11 22:50:48.427 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-11 22:50:48.427 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-11 22:50:48.479 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.s.SolrIndexSearcher Opening [Searcher@6908bcad[itemCore] main]
+2019-04-11 22:50:48.486 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/uas/Desktop/snapChaching/solr-8.0.0/server/solr/itemCore/conf
+2019-04-11 22:50:48.498 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-11 22:50:48.502 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-11 22:50:48.510 INFO  (coreLoadExecutor-9-thread-1) [   x:itemCore] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-11 22:50:48.520 INFO  (searcherExecutor-10-thread-1-processing-x:itemCore) [   x:itemCore] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6908bcad[itemCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.0.0):C3:[diagnostics={java.runtime.version=10.0.2+13-Ubuntu-1ubuntu0.18.04.4, java.vendor=Oracle Corporation, java.version=10.0.2, java.vm.version=10.0.2+13-Ubuntu-1ubuntu0.18.04.4, lucene.version=8.0.0, os=Linux, os.arch=amd64, os.version=4.15.0-47-generic, source=flush, timestamp=1555018730443}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-04-11 22:50:48.520 INFO  (searcherExecutor-10-thread-1-processing-x:itemCore) [   x:itemCore] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-11 22:50:48.520 INFO  (searcherExecutor-10-thread-1-processing-x:itemCore) [   x:itemCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-11 22:50:48.525 INFO  (searcherExecutor-10-thread-1-processing-x:itemCore) [   x:itemCore] o.a.s.c.SolrCore [itemCore] Registered new searcher Searcher@6908bcad[itemCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.0.0):C3:[diagnostics={java.runtime.version=10.0.2+13-Ubuntu-1ubuntu0.18.04.4, java.vendor=Oracle Corporation, java.version=10.0.2, java.vm.version=10.0.2+13-Ubuntu-1ubuntu0.18.04.4, lucene.version=8.0.0, os=Linux, os.arch=amd64, os.version=4.15.0-47-generic, source=flush, timestamp=1555018730443}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-04-11 22:50:54.745 INFO  (qtp888287133-18) [   x:itemCore] o.a.s.c.S.Request [itemCore]  webapp=/solr path=/select params={q=*:*} hits=3 status=0 QTime=34
+2019-04-11 22:52:26.532 INFO  (qtp888287133-24) [   x:itemCore] o.a.s.c.S.Request [itemCore]  webapp=/solr path=/select params={q=name:afsdfsd} hits=0 status=0 QTime=24
